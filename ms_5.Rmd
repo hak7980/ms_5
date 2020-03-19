@@ -1,0 +1,60 @@
+---
+title: "ms_6"
+author: "Hamid Khan"
+date: "3/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r set-up}
+
+# Loading libraries
+
+library(tidyverse)
+
+library(ggplot2)
+
+library(janitor)
+
+library(stringr)
+
+library(lubridate)
+
+```
+
+
+```{r making plot}
+
+# Loading dataset
+
+load("raw-data/odimetadata.Rdata")
+
+# Filtering for only Pakistan's matches and 
+# adding in a year column
+
+subsetpk <-
+  
+  results %>%
+  
+  filter(team=="Pakistan") %>%
+  
+  mutate(year = year(as.Date(
+    
+    date, format = "%m/%d/%Y")))
+
+  
+
+```
+  
+  
+
+
+
+
+
+
+
+````
