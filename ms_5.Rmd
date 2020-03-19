@@ -144,7 +144,7 @@ plot <-
          
          "Proportion of Matches won by Pakistan Sorted by Runs Scored in the \n First Five Overs", 
        
-    subtitle = "Sorted According to Run Bracket",
+    subtitle = "Sorted According to Run Bracket - Period: 2010-2017",
   
     x = "Year", 
        
@@ -163,7 +163,9 @@ plot <-
 ```
 
 ```{r saving plot, include=FALSE}
+
 ggsave("win_stat_by_runs.png")
+
 ```
 
 ```{r printing plot, echo=FALSE}
