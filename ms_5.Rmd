@@ -172,4 +172,4 @@ knitr::include_graphics("win_stat_by_runs.png")
 
 ```
 
-NOTE: Bracket indicates that less than 15runs were scores in the first five overs, 30 indicates that between 15 and 30 runs were scored and 30 indicates that over 30 runs were scored
+NOTE: Bracket indicates that less than 15 runs were scores in the first five overs, 30 indicates that between 15 and 30 runs were scored and 30 indicates that over 30 runs were scored
